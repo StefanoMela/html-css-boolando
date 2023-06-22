@@ -24,7 +24,9 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
+
 
 main{
     padding-top: 53px;
@@ -156,7 +158,8 @@ header img{
 
 .top-img:hover{
     opacity: 1;
-    transition: all .8s ease-in;
+    /* transition: all .8s ease-in; */
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
 }
 
 /* FOOTER */
